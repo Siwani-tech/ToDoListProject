@@ -1,0 +1,69 @@
+body{
+    background: blueviolet;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.intro{
+    margin: 30px 0px;
+    font-weight: bold;
+}
+h1{
+    color: aqua;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+p{
+    font-weight: 600;
+
+}
+#first{
+    margin-top: 10px;
+    color: rgb(226, 43, 43);
+}
+#second{
+    color: azure;
+}
+#third{
+    color: blue;
+    margin-bottom: 30px;
+}
+#enter{
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: crimson;
+    background-color: beige;
+    transition: all 0.75s ease;
+    -webkit-transition: all  0.75s ease;
+    -moz-transition: all  0.75s ease;
+    -o-transition: all  0.75s ease;
+    font-weight: normal;
+
+}
+li:hover{
+    background: firebrick;
+    
+}
+li >button{
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: aquamarine;
+    font-weight: 800;
+}
+input{
+    border-radius: 5px;
+    min-width: 65%;
+    padding: 5px;
+    border: none;
+}
+.done{
+    background: #51DF70 !important;
+    color: rgb(219, 15, 15);
+
+}
+.delete{
+    display: none;
+}
